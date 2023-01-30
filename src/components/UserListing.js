@@ -57,7 +57,7 @@ export default function UserListing() {
         <button onClick={showData}>Click Me</button>
         {users}
 
-        <User data={{id: "1", name : "George", email : "george.bluth@reqres.in", avatar : "https://reqres.in/img/faces/1-image.jpg"}}  />
+        {/* <User data={{id: "1", name : "George", email : "george.bluth@reqres.in", avatar : "https://reqres.in/img/faces/1-image.jpg"}}  /> */}
     
     </>
   )

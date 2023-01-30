@@ -15,7 +15,7 @@ function User(props) {
             <td>{id}</td>
             <td>{name}</td>
             <td>{email}</td>
-            <td>{avatar}</td>
+            <td><img src={avatar} alt="" /></td>
         </tbody>
      </table>
     {/* <h3>{id}| {name}|{email}|<img src={avatar} alt="" /></h3> */}
